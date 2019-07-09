@@ -19,14 +19,14 @@ public class EventAdapter extends RecyclerView.Adapter
 	public EventAdapter()
 	{
 		Event[] array = {
-				new Event("起床", "2019-07-09 02:30"),
-				new Event("刷牙", "2019-07-09 08:35"),
-				new Event("上课", "2019-07-09 09:54", "教学楼"),
-				new Event("下课", "2019-07-09 12:00", "教学楼"),
-				new Event("吃午饭", "2019-07-09 12:30", "食堂"),
-				new Event("写作业", "2019-07-09 14:00", "机房"),
-				new Event("吃晚饭", "2019-07-09 18:00", "在寝室吃外卖"),
-				new Event("睡觉", "2019-07-11 22:30", "寝室"),
+				new Event("起床", "2019-07-10 08:30"),
+				new Event("刷牙", "2019-07-10 08:35"),
+				new Event("上课", "2019-07-10 09:54", "教学楼"),
+				new Event("下课", "2019-07-10 12:00", "教学楼"),
+				new Event("吃午饭", "2019-07-10 12:30", "食堂"),
+				new Event("写作业", "2019-07-10 14:00", "机房"),
+				new Event("吃晚饭", "2019-07-10 18:00", "在寝室吃外卖"),
+				new Event("睡觉", "2019-07-10 22:30", "寝室"),
 		};
 		mList = new ArrayList<Event>(Arrays.asList(array));
 	}
